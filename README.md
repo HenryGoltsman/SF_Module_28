@@ -7,11 +7,9 @@
    2. Разработать тест-кейсы (не менее 15);
    3. Провести автоматизированное тестирование продукта (не менее 15 автотестов);
    4. Оформить описание обнаруженных багов.
-
-
 Для работы автотестов необходимы библиотеки Pytest и Selenium и webdriver Selenium для Chrome 108 версии 
 Запустить тесты можно через терминал прописав:
- python3 -m pytest -v --driver Chrome --driver-path chromedriver.exe test_registration_website.py
- python3 -m pytest -v --driver Chrome --driver-path chromedriver.exe test_authorization_website.py
+python3 -m pytest -v --driver Chrome --driver-path chromedriver.exe test_registration_website.py
+python3 -m pytest -v --driver Chrome --driver-path chromedriver.exe test_authorization_website.py
 
 или через Run в PyCharm
